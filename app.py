@@ -14,6 +14,7 @@ ORDER_SITE_PASS = os.environ.get('ORDER_SITE_PASS', '')
 LINE_TOKEN = os.environ.get('LINE_TOKEN', '')
 
 PRODUCT_MAP = {
+    'エルジューダ エマルジョン': '115341',
 }
 
 def send_line_notify(message):
